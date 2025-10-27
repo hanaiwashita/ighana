@@ -1334,7 +1334,7 @@
       console.log('Converted to timezone:', selectedTimezone, '->', scheduleInTimezone);
 
       try {
-        const res = await fetch('https://n8nai.ai8mations.com/webhook/selection1', {
+        const res = await fetch('https://aoinakatani.app.n8n.cloud/webhook/selection', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload)
